@@ -42,6 +42,8 @@ body {
     align-items: center;
     margin-top: -50px;
     margin-bottom: 1.75rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid hsl(0, 0%, 89%);
 }
 
 .user h3 {
@@ -69,8 +71,7 @@ span {
 .info {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 2.95rem;
-    border-top: 1px solid var(--dark-gray);
+    padding: 1rem 2.95rem;
 }
 
 .info h3 {
@@ -86,4 +87,5 @@ span {
     font-size: 13px;
     text-align: center;
     letter-spacing: 2px;
+    margin-bottom: .75rem;
 }
